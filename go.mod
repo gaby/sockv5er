@@ -1,6 +1,6 @@
 module github.com/platput/sockv5er
 
-go 1.19
+go 1.25.0
 
 require (
 	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5
@@ -11,8 +11,8 @@ require (
 	github.com/glendc/go-external-ip v0.1.0
 	github.com/ip2location/ip2location-go/v9 v9.5.0
 	github.com/jedib0t/go-pretty/v6 v6.4.3
-	github.com/sirupsen/logrus v1.9.0
-	golang.org/x/crypto v0.4.0
+	github.com/sirupsen/logrus v1.9.1
+	golang.org/x/crypto v0.52.0
 	gopkg.in/yaml.v2 v2.2.8
 )
 
@@ -30,6 +30,6 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
-	golang.org/x/net v0.3.0 // indirect
-	golang.org/x/sys v0.3.0 // indirect
+	golang.org/x/net v0.54.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
 )
